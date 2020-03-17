@@ -92,8 +92,33 @@ The application is used to project the possible need for volunteers in the Hunts
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+|Property|	Type | 	Description |
+|--------| ------|--------------|
+|ObjectId|	String|	ID for user| 
+|UpdateAt 	|Date Time	|Date for update|
+|CreateAt	|Date Time	|Date for create|
+|Details	|String	| Information about event|
+|Location	|ADT	 |Maps of volunteer area available|
+|Refine	|String	|Chose which character you are looking for| 
+
 ### Networking
+
+Networking (request by screen) 
+* Home screen
+  *	(read) User should be able to see post 
+  *	(select) Chose which event you want to attend
+  *	(favorite) save an event for later 
+* Refine screen 
+	* (edit) edit the area 
+  *	(select) chose your preference 
+  *	(select) hours you would like to work 
+* Save for later screen 
+  * (delete) delete the no longer want to save 
+  *	(select) can go back an chose the event 
+* Profile screen 
+  * (read/GET) Query logged in user object 
+  * (update/PUT) update user profile image 
+
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]

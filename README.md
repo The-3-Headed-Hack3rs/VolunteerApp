@@ -83,8 +83,7 @@ The application is used to project the possible need for volunteers in the Hunts
 
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+![image0](https://user-images.githubusercontent.com/32345648/76821172-24231880-67db-11ea-98b5-ca9af163cbe2.jpeg)
 
 ### [BONUS] Digital Wireframes & Mockups
 

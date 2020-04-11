@@ -30,18 +30,18 @@ The application is used to project the possible need for volunteers in the Hunts
 
 **Required Must-Have Stories**
 
-* User can register new account
-* User can login
-* User Select location 
-* User can select hours available
-* User can be on a leaderboard 
-* User can view the feed 
+* User can register new account []
+* User can login[X]
+* User Select location[] 
+* User can select hours available[]
+* User can be on a leaderboard[] 
+* User can view the feed[] 
 
 **Optional Nice-to-Have Stories**
 
-* Help page 
-* User can see their profile page with their photos
-* Can save its favorites for later 
+* Help page[] 
+* User can see their profile page with their photos[]
+* Can save its favorites for later[] 
 
 ### 2. Screen Archetypes
 

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmationPage2">
+
+    <TextView
+        android:id="@+id/tvDetails"
+        android:layout_width="284dp"
+        android:layout_height="99dp"
+        android:layout_marginBottom="37dp"
+        android:text="@string/thank_you_for_your_submission_to_volunteer_look_out"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="107dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/date"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvTime"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDated"
+        android:layout_width="121dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="19dp"
+        android:text="@string/_4_30_20"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvTimed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDetails" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="105dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/time"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvLocation"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTimed"
+        android:layout_width="121dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="23dp"
+        android:text="@string/_11_24"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvLocated"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="106dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/locationdd"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvReference"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLocated"
+        android:layout_width="122dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/u_s_space_rocket_center1"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvReferenced"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvReference"
+        android:layout_width="155dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/reference"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvReferenced"
+        android:layout_width="122dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="123dp"
+        android:text="@string/_5520"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/HomeBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:text="@string/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmationPage1">
+
+    <TextView
+        android:id="@+id/tvReferenced3"
+        android:layout_width="122dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="112dp"
+        android:text="@string/_5489"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvReferenced2"
+        android:layout_width="122dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="29dp"
+        android:text="@string/eleanor_e_murphy_library"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvReferenced3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTimed2" />
+
+    <TextView
+        android:id="@+id/tvTimed2"
+        android:layout_width="121dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="33dp"
+        android:text="@string/_11_20"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvReferenced2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDated2" />
+
+    <TextView
+        android:id="@+id/tvDated2"
+        android:layout_width="121dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="21dp"
+        android:text="@string/_4_30_20"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvTimed2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDetails" />
+
+    <TextView
+        android:id="@+id/tvReference2"
+        android:layout_width="155dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="108dp"
+        android:text="@string/reference"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLocation2"
+        android:layout_width="106dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="29dp"
+        android:text="@string/locationddd"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvReference2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTime2"
+        android:layout_width="105dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginBottom="29dp"
+        android:text="@string/time"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvLocation2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDate2"
+        android:layout_width="107dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="21dp"
+        android:text="@string/date"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvTime2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDetails"
+        android:layout_width="284dp"
+        android:layout_height="99dp"
+        android:layout_marginBottom="39dp"
+        android:text="@string/thank_you_for_your_submission_to_volunteer_look_out"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvDate2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/HomeBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/home1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    tools:ignore="LabelFor">
+
+    <Button
+        android:id="@+id/SelectBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/select"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/selectBTN2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/select"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ProfileBTN"
+        android:layout_width="162dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/LogoutBTN"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etName2"
+        android:layout_width="233dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="182dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="none"
+        android:text="@string/u_s_space_rocket_center"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDetails1" />
+
+    <EditText
+        android:id="@+id/etName1"
+        android:layout_width="232dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="182dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="none"
+        android:text="@string/eleanor_e_murphy_library"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <EditText
+        android:id="@+id/etLocation1"
+        android:layout_width="233dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="78dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="none"
+        android:text="@string/huntsville_alabama"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toStartOf="@+id/SelectBTN"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etName1" />
+
+    <EditText
+        android:id="@+id/etLocation2"
+        android:layout_width="233dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="78dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="none"
+        android:text="@string/huntsville_alabama"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toStartOf="@+id/SelectBTN"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etName2" />
+
+    <EditText
+        android:id="@+id/etDetails1"
+        android:layout_width="233dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="none"
+        android:text="@string/public_library"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/etName2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etLocation1" />
+
+    <EditText
+        android:id="@+id/etDetails2"
+        android:layout_width="234dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="182dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="none"
+        android:text="@string/museum"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etLocation2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="235dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="@hands"
+        app:layout_constraintBottom_toTopOf="@+id/etName1"
+        app:layout_constraintEnd_toStartOf="@+id/LogoutBTN"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hands" />
+
+</android.support.constraint.ConstraintLayout>

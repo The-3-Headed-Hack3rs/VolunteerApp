@@ -51,7 +51,6 @@ The application is used to project the possible need for volunteers in the Hunts
    * User can login
 * Home screen 
     * User can see list of areas volunteer is needed 
-    * User can see a map
     * User can see details about each volunteer event 
     * User can click on icon to favorite it
 * Favorite screen 
@@ -67,7 +66,6 @@ The application is used to project the possible need for volunteers in the Hunts
 * Home feed 
 * Map Search 
 * Saved for later 
-* Cart 
 
 **Flow Navigation** (Screen to Screen)
 
@@ -121,4 +119,7 @@ Networking (request by screen)
 
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- [OPTIONAL: List endpoints if using existing API such as Yel
+
+## Milestone
+Unit 11 In this sprint we will create a screen that the user can register new account. Well have text fields first name, last name, email, password and area code. There will also be a create new account link that will reroute back to the create new account screen and a submit button. Connect a database to the project.

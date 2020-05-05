@@ -30,11 +30,9 @@ The application is used to project the possible need for volunteers in the Hunts
 
 **Required Must-Have Stories**
 
-* User can register new account []
+* User can register new account [x]
 * User can login[X]
 * User Select location[] 
-* User can select hours available[]
-* User can be on a leaderboard[] 
 * User can view the feed[] 
 
 **Optional Nice-to-Have Stories**
@@ -123,3 +121,8 @@ Networking (request by screen)
 
 ## Milestone
 Unit 11 In this sprint we will create a screen that the user can register new account. Well have text fields first name, last name, email, password and area code. There will also be a create new account link that will reroute back to the create new account screen and a submit button. Connect a database to the project.
+
+Unit 12 We will able to connect to a Parse database that will hold new user information. We will also create a home screen that with have images of different places and and location that volunteer is needed. the user will be able to see this Home screen and be able to scroll and refresh the page.The user can also turn their phone vertical and horizontal. Kadejah- create the database Justin- look up different volunteer needed in the area Greg- create the homepage and favorite page.
+
+
+

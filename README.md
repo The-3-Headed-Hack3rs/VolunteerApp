@@ -32,8 +32,8 @@ The application is used to project the possible need for volunteers in the Hunts
 
 * User can register new account [x]
 * User can login[X]
-* User Select location[] 
-* User can view the feed[] 
+* User Select location[x] 
+* User can view the feed[x] 
 
 **Optional Nice-to-Have Stories**
 
@@ -123,7 +123,9 @@ Networking (request by screen)
 Unit 11 In this sprint we will create a screen that the user can register new account. Well have text fields first name, last name, email, password and area code. There will also be a create new account link that will reroute back to the create new account screen and a submit button. Connect a database to the project.
 ![VolunteerAppGifLogin](https://user-images.githubusercontent.com/32345648/81116892-c7470300-8eeb-11ea-95f5-5f78baca4a63.gif)
 ![VolunteerAppGifCNA](https://user-images.githubusercontent.com/32345648/81117049-0ffebc00-8eec-11ea-94a4-4ac4658b1e0c.gif)
+
 Unit 12 We will able to connect to a Parse database that will hold new user information. We will also create a home screen that with have images of different places and and location that volunteer is needed. the user will be able to see this Home screen and be able to scroll and refresh the page.The user can also turn their phone vertical and horizontal. Kadejah- create the database Justin- look up different volunteer needed in the area Greg- create the homepage and favorite page.
 
+Unit 13 Make confirmation page and Wrap up. Test app, make sure there is no errors, have a walk-through video ready. Prepare for demo day
 
 
